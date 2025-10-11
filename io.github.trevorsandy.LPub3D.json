@@ -15,7 +15,7 @@
   ],
   "build-options": {
     "env": {
-      "LP3D_APP": "lpub3d",
+      "LP3D_APP": "lpub3d-ci",
       "LP3D_UTILS": "builds/utilities",
       "LP3D_EXTRAS": "mainApp/extras",
       "LP3D_DIST_DIR_PATH": "/app/build_staging",
@@ -337,8 +337,8 @@
         {
           "type": "git",
           "disable-shallow-clone": true,
-          "url": "https://github.com/trevorsandy/lpub3d.git",
-          "commit": "8880540bb81270dbb37972306d1740208813bee9"
+          "url": "https://github.com/trevorsandy/lpub3d-ci.git",
+          "commit": "dd5fb453b34c4ac56e32492e1542c197aba2f2de"
         },
         {
           "type": "shell",

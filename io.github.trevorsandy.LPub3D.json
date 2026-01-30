@@ -155,11 +155,7 @@
         {
           "type": "git",
           "url": "https://github.com/trevorsandy/ldglite.git",
-          "commit": "26ee190caa49a5ab3088d962180d53d111792b6a"
-        },
-        {
-          "type": "patch",
-          "path": "patches/ldglite-build.patch"
+          "commit": "26b80d286c4dd461dcbacb7870d4b5da36f1a501"
         }
       ],
       "post-install": [
@@ -185,7 +181,7 @@
         {
           "type": "git",
           "url": "https://github.com/trevorsandy/ldview.git",
-          "commit": "0fcb0e7f162906e20ec4e0521ac426b6fb0c3e77"
+          "commit": "4ded33aa96e5204d0564a391690759da248fbc81"
         }
       ],
       "modules": [
@@ -215,7 +211,7 @@
       ],
       "post-install": [
         "mv -f /run/build/ldview/OSMesa/build_staging/* ${FLATPAK_DEST}/build_staging/",
-        "if test -d ${FLATPAK_DEST}/build_staging/ldview-4.5; then echo \"LDView staged to ${FLATPAK_DEST}/build_staging/ldview-4.5.\"; fi"
+        "if test -d ${FLATPAK_DEST}/build_staging/ldview-4.6; then echo \"LDView staged to ${FLATPAK_DEST}/build_staging/ldview-4.6.\"; fi"
       ]
     },
     {
@@ -236,7 +232,7 @@
           "type": "git",
           "url": "https://github.com/trevorsandy/povray.git",
           "//": "Branch lpub3d/raytracer-cui",
-          "commit": "cc6aeb73c52beadaadc0b9783ce83937c047237f"
+          "commit": "44092a2aca9d54c858ca58203f3c0ae8944a428a"
         }
       ],
       "modules": [

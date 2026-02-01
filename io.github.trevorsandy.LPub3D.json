@@ -378,7 +378,8 @@
           "SOURCE_DIR": "/run/build/build-check",
           "QT_PLUGIN_PATH": "/app/lib/plugins",
           "QT_QPA_PLATFORM_PLUGIN_PATH": "/app/lib/plugins/platforms",
-          "QT_QPA_PLATFORM": "xcb"
+          "QT_QPA_PLATFORM": "xcb",
+          "QT_DEBUG_PLUGINS": "1"
         }
       },
       "build-commands": [

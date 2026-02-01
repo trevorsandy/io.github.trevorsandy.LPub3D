@@ -380,8 +380,8 @@
           "LDVIEW_EXE": "/app/bin/lpub3d/3rdParty/ldview-4.6/bin/ldview",
           "POVRAY_EXE": "/app/bin/lpub3d/3rdParty/lpub3d_trace_cui-3.8/bin/lpub3d_trace_cui",
           "SOURCE_DIR": "/run/build/build-check",
-          "QT_PLUGIN_PATH": "/usr/lib/plugins",
-          "QT_QPA_PLATFORM_PLUGIN_PATH": "/usr/lib/plugins/platforms",
+          "QT_PLUGIN_PATH": "/app/lib/plugins",
+          "QT_QPA_PLATFORM_PLUGIN_PATH": "/app/lib/plugins/platforms",
           "QT_QPA_PLATFORM": "xcb"
         }
       },
